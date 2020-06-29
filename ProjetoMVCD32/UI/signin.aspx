@@ -17,7 +17,7 @@
             <asp:TextBox ID="txtNomeD32" runat="server"></asp:TextBox><br />
             <asp:Label ID="lblNMae" runat="server" Text="Nome da Mãe:"></asp:Label><br />
             <asp:TextBox ID="txtNomeMaeD32" runat="server"></asp:TextBox><br />
-            <asp:Button ID="btnEnviar" runat="server" Text="Enviar" BackColor="#6666FF" BorderStyle="Outset" /><br />
+            <asp:Button ID="btnEnviar" runat="server" OnClick="btn_enviar" Text="Enviar" BackColor="#6666FF" BorderStyle="Outset" /><br />
 
         </div>
     </form>
